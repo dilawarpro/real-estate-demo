@@ -422,7 +422,7 @@ document.addEventListener('DOMContentLoaded', () => {
     };
 
     const flowLocation = () => {
-        addMsg("📍 <strong>Khan Real Estate Office</strong><br><br>📌 Main Jampur Road, Dera Ghazi Khan, Punjab, Pakistan<br>📞 <strong>0321-1234-56</strong><br>📧 khan@gmail.com<br>🕘 Mon — Sat: 9:00 AM — 7:00 PM<br><br>We're right in the heart of DG Khan! Easy to find, easy to reach. 🗺️");
+        addMsg("📍 <strong>Khan Real Estate Office</strong><br><br>📌 Main Jampur Road, Dera Ghazi Khan, Punjab, Pakistan<br>📞 <strong>0321-1234-56</strong><br>📧 xyz@gmail.com<br>🕘 Mon — Sat: 9:00 AM — 7:00 PM<br><br>We're right in the heart of DG Khan! Easy to find, easy to reach. 🗺️");
         setTimeout(() => setSuggestions([
             { label: '📞 Call Us', action: flowContactAgent },
             { label: '🏠 View Properties', action: flowProperties },
@@ -440,12 +440,12 @@ document.addEventListener('DOMContentLoaded', () => {
     };
 
     const flowSchedule = () => {
-        addMsg("📅 To schedule a property visit or get a personalized quote, please contact us:<br><br>📞 <strong>0321-1234-56</strong><br>📧 khan@gmail.com<br><br>Our agent will arrange everything for you within 24 hours! ⚡");
+        addMsg("📅 To schedule a property visit or get a personalized quote, please contact us:<br><br>📞 <strong>0321-1234-56</strong><br>📧 xyz@gmail.com<br><br>Our agent will arrange everything for you within 24 hours! ⚡");
         setTimeout(() => endChat(), 800);
     };
 
     const flowEmail = () => {
-        addMsg("📧 Please email us at <strong>khan@gmail.com</strong> with your requirements, and we'll send you a curated property list within 24 hours! You can also WhatsApp us for faster response. ⚡");
+        addMsg("📧 Please email us at <strong>xyz@gmail.com</strong> with your requirements, and we'll send you a curated property list within 24 hours! You can also WhatsApp us for faster response. ⚡");
         setTimeout(() => endChat(), 800);
     };
 
