@@ -169,7 +169,7 @@ document.addEventListener('DOMContentLoaded', () => {
         { name: 'Sana Tariq', flag: '🇵🇰' },
         { name: 'Ali Raza', flag: '🇵🇰' },
         { name: 'Hira Sheikh', flag: '🇵🇰' },
-        { name: 'Kamran Akmal', flag: '🇵🇰' },
+        { name: 'Kamran Javed', flag: '🇵🇰' },
         { name: 'Nadia Jameel', flag: '🇵🇰' },
         { name: 'Imran Baloch', flag: '🇵🇰' },
         { name: 'Rabia Aslam', flag: '🇵🇰' },
