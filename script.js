@@ -179,14 +179,14 @@ document.addEventListener('DOMContentLoaded', () => {
     ];
     const toastProducts = [
         'just purchased a 5 Marla Plot in City Housing 🏡',
-        'booked a Luxury House in DG Khan 🏠',
+        'booked a Luxury House in [Your city]🏠',
         'invested in Commercial Property on Jampur Road 🏢',
         'just bought a 10 Marla Plot in Satellite Town 📐',
         'purchased Agricultural Land near Taunsa 🌾',
         'booked a 1 Kanal Villa in Basti Mohri 🏰',
         'rented a Modern Apartment in Block C 🏙️',
         'bought a Shop on Multan Road 🏪',
-        'invested in DG Khan Housing Scheme 📈',
+        'invested in [Your city]Housing Scheme 📈',
         'purchased a Corner Plot in Cantt Area 🎯',
     ];
     const timeAgo = ['just now', '2 min ago', '5 min ago', '8 min ago', '12 min ago', '15 min ago', '20 min ago'];
@@ -361,7 +361,7 @@ document.addEventListener('DOMContentLoaded', () => {
     };
 
     const flowLocations = () => {
-        addMsg("📍 Our properties are located in prime areas:<br><br>🔹 City Housing Society<br>🔹 Satellite Town<br>🔹 Basti Mohri<br>🔹 Main Jampur Road<br>🔹 Multan Road<br>🔹 Taunsa Road<br>🔹 DG Khan Cantt Area<br><br>All locations offer excellent connectivity and future value appreciation! 📈");
+        addMsg("📍 Our properties are located in prime areas:<br><br>🔹 City Housing Society<br>🔹 Satellite Town<br>🔹 Basti Mohri<br>🔹 Main Jampur Road<br>🔹 Multan Road<br>🔹 Taunsa Road<br>🔹 [Your city]Cantt Area<br><br>All locations offer excellent connectivity and future value appreciation! 📈");
         setTimeout(() => setSuggestions([
             { label: '📅 Book a Site Visit', action: flowSchedule },
             { label: '📞 Call for Directions', action: flowContactAgent },
